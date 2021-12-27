@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cars</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >More</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+                <a class="dropdown-item" href="index.html#contact"
+                  >Contact Us</a
+                >
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <section class="mb-5">
+      <div>
+        <h1 class="text-center text-capitalize pt-5 jumbotron container-fluid">
+          About Us
+        </h1>
+      </div>
+      <div class="row container mx-auto">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="New/pexels-photo-842548.jpeg" alt="" class="img-fluid" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2 class="text-center">Who Am I</h2>
+          <hr />
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            fuga inventore accusantium suscipit a cum at sed aliquam nobis
+            consequatur, adipisci minima nesciunt voluptatum. Debitis quidem
+            incidunt adipisci tempore ex. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Qui culpa officia, ducimus, ex facilis excepturi
+            asperiores sit eligendi cumque odit a!
+          </p>
+          <button class="btn bg-primary text-white">Wanna Know Me</button>
+        </div>
+      </div>
+    </section>
+    <section class="text-white">
+      <!-- add 'footer' snippet in css -->
+      <div class="footer-v1 bg-dark text-white">
+        <div class="footer no-margin pt-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="headline">
+                  <p>Navbar</p>
+                </div>
+                <ul class="list-unstyled link-list text-white">
+                  <li><a href="index.html" class="text-white">Home</a></li>
+                  <li><a href="about.html" class="text-white">About Us</a></li>
+                  <li>
+                    <a href="services.html" class="text-white">Services</a>
+                  </li>
+                  <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <div class="headline">
+                  <p>Resources</p>
+                </div>
+                <ul class="list-unstyled link-list">
+                  <li><a href="#" class="text-white">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <div class="headline">
+                  <p>Support</p>
+                </div>
+                <address>
+                  <ul class="list-unstyled link-list">
+                    <li><a href="#" class="text-white">Contact Us</a></li>
+                    <li>
+                      <a href="#" class="text-white"
+                        ><i class="fa fa-envelope"></i>support@company.com</a
+                      >
+                    </li>
+                  </ul>
+                </address>
+              </div>
+              <div class="col-md-3">
+                <div class="headline">
+                  <p>Company</p>
+                </div>
+                <ul class="list-unstyled link-list">
+                  <li><a href="about.html" class="text-white">About Us</a></li>
+                  <li><a href="#" class="text-white">Privacy Policy</a></li>
+                  <li><a href="#" class="text-white">Terms of Use</a></li>
+                  <li><a href="#" class="text-white">FAQs</a></li>
+                  <li>
+                    <a href="#" class="text-white"
+                      >Cancellation/Rescheduling policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
+</html>

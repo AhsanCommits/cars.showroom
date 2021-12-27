@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            font-family: "Baloo Bhai 2", cursive;
+            margin: 0px;
+            padding: 0px;
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cars</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">More</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="gallery.html">Gallery</a>
+                            <a class="dropdown-item" href="index.html#contact">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1 class="text-center text-capitalize pt-5 jumbotron container-fluid">Services</h1>
+        </div>
+        <div class="row text-center mb-5 container mx-auto">
+            <div class="col-12 col-lg-4 col-md-4">
+                <div class="card">
+                    <img src="New/pexels-photo-4480448.jpeg" class="card-img-top" src="holder.js/100x180/" alt=""
+                        height="210px">
+                    <div class="card-body">
+                        <h4 class="card-title">OIL CHANGE</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        <button class="btn bg-primary text-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-4">
+                <div class="card">
+                    <img src="New/pexels-photo-4489732.jpeg" class="card-img-top" src="holder.js/100x180/" alt=""
+                        height="210px">
+                    <div class="card-body">
+                        <h4 class="card-title">ALLIGNMENT</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        <button class="btn bg-primary text-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card">
+                    <img src="New/pexels-photo-1231643.jpeg" class="card-img-top" src="holder.js/100x180/" alt=""
+                        height="210px">
+                    <div class="card-body">
+                        <h4 class="card-title">SHOWROOM</h4>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        <button class="btn bg-primary text-white">Read More</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="bg-primary text-white text-center mb-5">
+        <article class="py-5">
+            <div>
+                <h3 class="display-4">+92 318509586</h3>
+                <p>If You Want The Best Service Call Us Now.</p>
+                <button type="button" class="btn btn-lg btn-warning text-white">Contact Now</button>
+            </div>
+        </article>
+    </section>
+    <section class="text-white">
+        <!-- add 'footer' snippet in css -->
+        <div class="footer-v1 bg-dark text-white">
+            <div class="footer no-margin pt-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="headline">
+                                <p>Navbar</p>
+                            </div>
+                            <ul class="list-unstyled link-list text-white">
+                                <li><a href="index.html" class="text-white">Home</a></li>
+                                <li><a href="about.html" class="text-white">About Us</a></li>
+                                <li><a href="services.html" class="text-white">Services</a></li>
+                                <li><a href="gallery.html" class="text-white">Gallery</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="headline">
+                                <p>Resources</p>
+                            </div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="#" class="text-white">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="headline">
+                                <p>Support</p>
+                            </div>
+                            <address>
+                                <ul class="list-unstyled link-list">
+                                    <li><a href="#" class="text-white">Contact Us</a></li>
+                                    <li>
+                                        <a href="#" class="text-white"><i
+                                                class="fa fa-envelope"></i>support@company.com</a>
+                                    </li>
+                                </ul>
+                            </address>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="headline">
+                                <p>Company</p>
+                            </div>
+                            <ul class="list-unstyled link-list">
+                                <li><a href="about.html" class="text-white">About Us</a></li>
+                                <li> <a href="#" class="text-white">Privacy Policy</a></li>
+                                <li><a href="#" class="text-white">Terms of Use</a></li>
+                                <li><a href="#" class="text-white">FAQs</a></li>
+                                <li><a href="#" class="text-white">Cancellation/Rescheduling policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
